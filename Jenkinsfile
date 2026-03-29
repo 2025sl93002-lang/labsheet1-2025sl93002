@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/2025sl93002-lang/labsheet1-2025sl93002.git'
+                git branch: 'main', url: 'https://github.com/2025sl93002-lang/labsheet1-2025sl93002.git'
             }
         }
 
